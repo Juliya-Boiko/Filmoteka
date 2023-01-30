@@ -19,6 +19,7 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .movie-card__img {
   width: 280px;
   height: 443px;
@@ -33,12 +34,14 @@
     height: 449px;
   }
 }
+
 .movie-card__info {
   margin-top: 8px;
   @media screen and (min-width: $tablet) {
     margin-top: 10px;
   }
 }
+
 .movie-card__title {
   font-family: $primary-font;
   @include font(500, 12px, 1.16);
@@ -47,6 +50,7 @@
     line-height: 1.14;
   }
 }
+
 .movie-card__data {
   display: flex;
   flex-wrap: wrap;
@@ -55,6 +59,7 @@
   @include font(500, 12px, 1.14);
   color: $accent-color;
 }
+
 .movie-card__genres {
   display: flex;
   flex-wrap: wrap;

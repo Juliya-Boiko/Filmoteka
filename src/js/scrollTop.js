@@ -14,6 +14,7 @@ export const toggleBtnAction = () => {
     refs.scroll.scrolltop.classList.remove('showBtn');
   }
 };
+
 window.addEventListener('scroll', toggleBtnAction);
 
 export const scrollToTop = () => {
@@ -22,4 +23,5 @@ export const scrollToTop = () => {
     behavior: 'smooth',
   });
 };
+
 refs.scroll.scrolltop.addEventListener('click', scrollToTop);

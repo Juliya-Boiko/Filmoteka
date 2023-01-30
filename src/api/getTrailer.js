@@ -11,5 +11,4 @@ export const getTrailer = async id => {
   } catch {
     Notify.failure('Search result not successful');
   }
-
 };

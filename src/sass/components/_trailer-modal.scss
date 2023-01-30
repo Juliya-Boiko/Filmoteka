@@ -13,12 +13,10 @@
 
 .videoplayer-container {
   width: 300px;
-
   @media screen and (min-width: $tablet) {
     width: 600px;
     height: 300px;
   }
-
   @media screen and (min-width: $desktop) {
     width: 900px;
     height: 450px;

@@ -3,14 +3,12 @@
   @media screen and (min-width: $tablet) {
       height: 220px;
   }
-
   @include bgi('../images/header-library/header-background-image-mobile.webp');
     @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
       @include bgi('../images/header-library/mobile-2x.webp');
     }
-
   @media screen and (min-width: $tablet) {
     @include bgi('../images/header-library/header-background-image-tablet.webp');
     @media (min-device-pixel-ratio: 2),
@@ -19,7 +17,6 @@
       @include bgi('../images/header-library/tablet-2x.webp');
     }
   }
-
   @media screen and (min-width: $desktop) {
     @include bgi('../images/header-library/header-background-image-desktop.webp');
     @media (min-device-pixel-ratio: 2),
@@ -33,16 +30,13 @@
 .header-library-container {
   margin: 0 auto;
   padding: 0 20px;
-
   @media screen and (max-width: 767px) {
     width: $mobile;
   }
-
   @media screen and (min-width: $tablet) {
     width: $tablet;
     padding: 0 32px;
   }
-
   @media screen and (min-width: $desktop) {
     width: $desktop;
     padding: 0 71px;
@@ -64,7 +58,6 @@
   @media screen and (min-width: $mobile) {
     width: 130px;
   }
-
   &:hover,
   &:focus {
     background-color: $accent-color;
@@ -82,7 +75,3 @@
   border: 2px solid $accent-color;
   box-shadow: 0px 8px 43px 0px $accent-color;
 }
-
-// .page-link:focus {
-//   border-bottom: 3px solid $accent-color;
-// }

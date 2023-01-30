@@ -5,10 +5,7 @@ import { getFromStorage } from '../js/localStorage/storage';
 import { renderTopRated } from './render/renderTopRated';
 import { renderUpComing } from './render/renderUpComing';
 
-const {
-  pagination: { paginationList, input, libraryGallery },
-  home: { gallery },
-} = refs;
+const { pagination: { paginationList, input, libraryGallery }, home: { gallery } } = refs;
 let currentPage = 1;
 function renderCollection(currentPage) {
   if (input.value.length) {

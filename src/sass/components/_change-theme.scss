@@ -14,45 +14,35 @@ body.dark-theme {
   & .movie-card__title {
     color: $secondary-color-shade-light;
   }
-
   & .movie-card__brief {
     color: $accent-color;
   }
-
   & .footer__text {
     color: $secondary-color-shade-light;
   }
-
   & .footer__info {
     color: $secondary-color-shade-light;
   }
-
   & .theme-switch__icon--accent1 {
     fill: $accent-color-grey;
     transition: 0.5s;
   }
-
   & .theme-switch__icon--accent2 {
     fill: $accent-color;
     transition: 0.5s;
   }
-
   & .modal-movie-info {
     color: $primary-color;
   }
-
   & .modal-movie-title {
     color: $primary-color;
   }
-
   & .modal-movie-descript {
     color: $primary-color;
   }
-
   & .pagination-list span {
     background-color: $secondary-color-shade-dark;
     color: $secondary-color;
-
     &:hover,
     &:focus {
       border-color: $secondary-color-shade-dark;
@@ -60,7 +50,6 @@ body.dark-theme {
       color: $primary-color;
       box-shadow: 0px 4px 4px rgba($primary-color, 0.25);
     }
-
     &:active {
       background-color: #fff;
     }
@@ -70,36 +59,29 @@ body.dark-theme {
       box-shadow: 0px 4px 4px rgba($primary-color, 0.25);
     }
   }
-
   & .main-wrapper {
     background-color: $primary-color;
   }
-
   & .login-form,
   .signup-form,
   .btn-rotate {
     background-color: $accent-color-grey;
     transition: 0.5s;
   }
-
   & .card .header {
     color: $primary-color;
   }
-
   & .card .footer,
   .btn-rotate {
     color: $secondary-color;
   }
-
   & .modal-movie-wrapper {
     background-color: $accent-color-grey;
   }
-
   & .footer {
     background-color: $secondary-color-shade-dark;
     transition: 0.5s;
   }
-
   & .loader-box__elem {
     background-color: $dark-theme-background-color;
   }
@@ -215,23 +197,3 @@ body.dark-theme {
   fill: $accent-color;
   transition: 0.5s;
 }
-
-// .toolbar--login {
-//   display: flex;
-//   justify-content: flex-end;
-//   top: 175px;
-//   right: 15;
-//   position: absolute;
-
-//   @media screen and (min-width: $mobile) {
-//     padding-right: 20px;
-//   }
-
-//   @media screen and (min-width: $tablet) {
-//     padding-right: 32px;
-//   }
-
-//   @media screen and (min-width: $desktop) {
-//     padding-right: 71px;
-//   }
-// }

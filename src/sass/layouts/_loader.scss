@@ -22,7 +22,6 @@
 .loader-container {
   position: relative;
   @extend %flex-center-style;
-  // width: 100%;
   animation: animate 0.9s linear infinite;
 }
 
@@ -35,7 +34,7 @@
   @media screen and (max-width: 500px) {
     width: 70px;
     height: 70px;
-}
+  }
   &::before {
     content: '';
     position: absolute;
@@ -80,10 +79,10 @@
   left: 10px;
   @media screen and (max-width: 500px) {
     top: 5px;
-  right: 5px;
-  bottom: 5px;
-  left: 5px;
-}
+    right: 5px;
+    bottom: 5px;
+    left: 5px;
+  }
   border-radius: 50%;
   background-color: $loader-box-element-background;
 }
