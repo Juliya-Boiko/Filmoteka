@@ -9,11 +9,11 @@
 
 ---
 
-🔎 site for searching movies, trailers, and savigd films to own lists.
+🔎 site for searching movies, see trailers, and saving films to own lists.
 
-- 📱 💻 Adaptive design (mobile first);
-- 🎬 ✅ Axios fetch from Movie.db;
-- 🏷 🌿 BEM-metology;
+- 📱 Adaptive design (mobile first);
+- ✅ Axios fetch from Movie.db;
+- 🏷 BEM-metology;
 - 🌝 🌚 Light/dark mode;
-- 📄 📦 Using handlebars;
-- ⚡️ 💫 Swiper modal gallery (GrowIt in footer);
+- 📦 Using handlebars;
+- 💫 Swiper modal gallery (GrowIt in footer);
